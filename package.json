@@ -1,7 +1,7 @@
 {
   "name": "fullcontact-api",
-  "version": "0.0.3",
-  "private": false,
+  "version": "0.0.4",
+  "private": true,
   "keywords": ["fullcontact"],
   "files": ["index.js", "lib", "package.json"],
   "author": {
@@ -10,7 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/sb8244/fullcontact-nodejs.git"
+    "url": "http://github.com/michaeldelorenzo/fullcontact-nodejs.git"
+  },
+  "dependencies": {
+    "underscore":   "1.6.0"
   },
   "readmeFilename": "README.md"
 }
